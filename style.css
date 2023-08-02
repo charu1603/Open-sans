@@ -160,13 +160,13 @@ position: absolute;
 
 @media(max-width: 1050px){
     .hero{
-        padding: 0 2rem;
+        padding: 2rem 2rem;
     }
 }
 @media(max-width: 800px){
     .hero{
-        padding: 0 ;
-        padding-bottom: 50px;
+        padding: 0 0 2rem 0;
+        
     }
     .hero .part1 h1{
         font-size: 8rem;
@@ -441,6 +441,7 @@ background-color: #EBF0F0;
     flex-direction: column;
     justify-content: center;
 padding-left: 200px;
+padding-top: 50px;
 font-family: 'Open Sans', sans-serif;
 
 }
@@ -541,8 +542,8 @@ color: black;
        flex-direction: column;
        justify-content: center;
        align-items: center;
-       padding: 0 2rem;
-       padding-bottom: 100px;
+       
+      padding: 0 0 0 1.5rem;
     }
     .section4 .left{
         width: 100%;
@@ -607,7 +608,7 @@ height:600px;
         background-color: #dae731;
         border-radius: 100%;
         position: absolute;
-        top: -1rem;
+        top: -2rem;
         left: -1rem;
         z-index: -1;
      
@@ -669,6 +670,9 @@ font-size: 2.4rem;
     height: 70px;
     width: 70px;
 }
+.sec5-cont .right p{
+    width: 100%;
+}
 }
 @media(max-width: 720px){
     .sec5-cont .left{
@@ -684,13 +688,13 @@ font-size: 2.4rem;
     .sec5-cont{
         flex-direction: column;
         padding: 2rem;
-       
+       padding-left: 0px;
 
     }
    
     .sec5-cont .left{
         width: 100%;
-      padding-left: 20px;
+      padding-left: 0px;
     }
     .sec5-cont .right{
         width: 100%;
@@ -799,7 +803,7 @@ margin-top: 10px;
 
 @media(max-width: 850px){
 .section6 .heading h1{
-    padding-left: 2rem;
+    padding-left: 0.5rem;
 }
 .sec6-cont .left img{
     padding-left: 2rem;
@@ -816,7 +820,10 @@ margin-top: 10px;
     }
     .sec6-cont .right{
         width: 100%;
-        padding-top: 50px ;
+        padding: 2rem 0rem 0rem 2rem ;
+    }
+    .sec6-cont .right p{
+        width: 100%;
     }
     .sec6-cont .left img{
        width: 100%;
@@ -929,7 +936,7 @@ display: flex;
 }
 @media(max-width: 850px){
     .section7 .heading{
-        padding-left: 2rem;
+        padding-left: 0.5rem;
     }
     .sec7-cont .left {
         padding-left: 2rem;
@@ -960,6 +967,48 @@ display: flex;
 .section7 .heading h4{
     font-size: 2rem;
 }
+.section7 .heading h4 span{
+    height: 80px;
+    width: 80px;
+}
+}
+
+.section8{
+    height: 450px;
+    background-color: #232526;
+    display: flex;
+    flex-direction: column;
+  
+    justify-content: center;
+}
+.section8 .heading h5{
+position: relative;
+z-index: 99;
+color: white;
+font-size: 1rem;
+font-family: 'Open Sans', sans-serif;
+}
+.section8 .heading h5 span{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    z-index: -1;
+    border-radius: 100%;
+    background-color: #bc402a;
+    top: -1rem;
+    left: -1rem;
+
+}
+.section8 .heading p{
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 900;
+    font-size: 2rem;
+}
+.section8 .heading p span{
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
 }
 
 footer{
